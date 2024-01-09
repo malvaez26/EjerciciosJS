@@ -44,3 +44,17 @@ console.log(nombreProducto, marca, ciudad, direccion, mensajeSaludo, tipoDocumen
 
 console.log("\nVariables de tipo boolean:");
 console.log(esMayorEdad, tieneDescuento, usuarioRegistrado, esDiaLaboral, compraExitosa, accesoPermitido, isLoggedIn, envioGratis, cuentaActivada, esAdmin);
+
+
+// Operaciones aritméticas
+const suma = edadDaniel + cantidadItems;
+let resta = temperaturaAmbiente - distancia;
+var multiplicacion = cantidadItems * porcentajeDescuento;
+let division = distancia / cantidadItems;
+
+// Imprimir los resultados
+console.log("\nOperaciones Aritméticas:");
+console.log("Suma:", suma);
+console.log("Resta:", resta);
+console.log("Multiplicación:", multiplicacion);
+console.log("División:", division);
