@@ -36,7 +36,7 @@ const cuentaActivada = true;
 var esAdmin = false;
 
 // Imprimir las variables
-console.log("Variables de tipo number:");
+console.log("\n Variables de tipo number:");
 console.log(edadDaniel, cantidadItems, temperaturaAmbiente, velocidad, edadUsuario, gravedad, peso, distancia, porcentajeDescuento, puntajeJugador);
 
 console.log("\nVariables de tipo string:");

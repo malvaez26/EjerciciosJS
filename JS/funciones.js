@@ -7,8 +7,15 @@
  */
 
 // Calcular el perimetro de un circulo
+      function calcularPerimetroCirculo(radio){
+        const pi = Math.PI;
+        return 2 * pi * radio;
+      }
+      
+      const radioCirculo = 7;
 
-
+      const perimetroCirculo = calcularPerimetroCirculo(radioCirculo);
+      console.log(`El perímetro del círculo con radio ${radioCirculo} es: ${perimetroCirculo}`);
 
 // Calcular el area de un rectangulo
 
